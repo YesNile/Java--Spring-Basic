@@ -8,10 +8,19 @@ public class Client {
     
     private String greeting;
 
+    private String city;
+
     public Client(String id, String fullName) {
         super();
         this.id = id;
         this.fullName = fullName;
+    }
+
+    public String getCity(){
+        return city;
+    }
+    public void setCity(String city){
+        this.city=city;
     }
 
     public String getId() {
